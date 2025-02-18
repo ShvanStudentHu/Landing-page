@@ -1,22 +1,121 @@
 body {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* gap: 50px; */
+
+  /* flex: 1; */
+  /* align-items: center; */
 }
-a {
-    text-decoration: none;
-    color: white;
+.bg-blue {
+  background-color: 1F2937;
+  width: 100%;
+}
+.bg-white {
+  background-color: white;
+  width: 100%;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.header{
-    color: white;
-    background-color: 1F2937;
-    display: flex;
-    justify-content: space-evenly;
+.name {
+  align-self: flex-end;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.first-box {
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.header {
+  color: white;
+  /* background-color: 1F2937; */
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .links {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbarandimg {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: center;
+}
+.placeholder {
+  width: 500px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkerkant {
+  max-width: 300px;
+  color: white;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardandquote {
+  border: 1px solid red;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.card-content {
+  min-width: 125px;
+  min-height: 125px;
+  border: 2px solid darkblue;
+  border-radius: 30px;
 }
